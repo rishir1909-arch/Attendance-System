@@ -1,0 +1,19 @@
+python --version
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install numpy
+pip install -r requirements.txt
+
+git+https://github.com/ageitgey/face_recognition_models
+
+setuptools<70.0.0
+
+supabase
+bcrypt
+segno 
+pillow 
+streamlit
+
+# pillow for images
+# streamlit for frontend
+
