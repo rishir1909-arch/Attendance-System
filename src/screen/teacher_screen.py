@@ -129,18 +129,7 @@ def teacher_dashboard():
 
     st.divider()
 
-    # Display selected tab content
-    if st.session_state.current_teacher_tab == "take_attendance":
-        st.header("Take Attendance")
-        st.write("Attendance functionality goes here.")
 
-    elif st.session_state.current_teacher_tab == "manage_subjects":
-        st.header("Manage Subjects")
-        st.write("Subject management functionality goes here.")
-
-    elif st.session_state.current_teacher_tab == "attendance_records":
-        st.header("Attendance Records")
-        st.write("Attendance records functionality goes here.")
 
     footer_dashboard()
 

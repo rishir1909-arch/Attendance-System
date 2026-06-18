@@ -9,7 +9,10 @@ def style_background_home():
             background-color: #5865F2 !important;
             }
         .stApp div[data-testid="stColumn"]{
-            background-color: #E0E3FF !important;
+            background-color: #7844c7 !important;
+            display: flex;
+            flex-direction: column;
+            
             padding: 2rem !important;
             border-radius: 5rem @important;
         }

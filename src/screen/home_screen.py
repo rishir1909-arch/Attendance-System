@@ -13,17 +13,16 @@ def home_screen():
     col1, col2 = st.columns(2)
     
     with col1:
+        st.image("src/images/teacher_image.png", width=180)
         
-        st.header("I am a Teacher")
-        st.image("src/images/teacher_image.jpeg", width=120)
-        if st.button('Teacher Portal' ):
+        if st.button('I am a Teacher', width='stretch' ):
            st.session_state['login_type']='teacher'
            st.rerun()
            
     with col2:
-        st.header("I am a Teacher")
-        st.image("src/images/student_image.jpeg", width=120)
-        if st.button('Student Portal'):
+    
+        st.image("src/images/student_image.png", width=180)
+        if st.button('I am a Student', width='stretch'):
             st.session_state['login_type']='student'
             st.rerun()
             
